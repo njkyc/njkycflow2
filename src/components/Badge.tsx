@@ -54,7 +54,7 @@ export const Badge = (props: Props) => {
     }}>made by
       <a
         ref={liteBadge}
-        href={'https://www.nowhereai.ca/'}
+        href={'https://www.google.ca/'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
