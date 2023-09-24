@@ -51,17 +51,17 @@ export const Badge = (props: Props) => {
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>Made by
+    }}>made by
       <a
         ref={liteBadge}
-        href={'https://google.com'}
+        href={'https://www.nowhereai.ca/'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Nohjin</span>
+        <span> nowhereai</span>
       </a>
     </span>
   )
